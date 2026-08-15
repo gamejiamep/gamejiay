@@ -39,7 +39,7 @@ body {
             rgba(30,40,50,.35),
             rgba(30,20,20,.7)
         ),
-        url("URL_BACKGROUND_KAMU");
+        url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8v030TA0WUbE089DB91BPuPZcedfr_JEeXIxQhNR-oA&s=10");
 
     background-size: cover;
     background-position: center;
@@ -256,7 +256,7 @@ button:active {
         <img
             id="jia"
             class="jia"
-            src="URL_GAMBAR_JIA_NORMAL"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJBOl1r2LSzcmLmr9Yf_Pbg_74GrVhKujdDz3zrssjkg&s=10"
             alt="Jia"
         >
 
@@ -1131,10 +1131,4 @@ updateStatus();
 
 </body>
 </html>
-"""
 
-out = Path("/mnt/data/GameJia_index.html")
-out.write_text(html, encoding="utf-8")
-print(out)
-print("Ukuran:", out.stat().st_size, "bytes")
-print("File siap dipakai sebagai index.html")
